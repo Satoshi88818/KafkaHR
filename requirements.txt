@@ -1,0 +1,30 @@
+# Kafka and messaging
+aiokafka==0.8.1
+confluent-kafka[avro]==2.3.0
+
+# Configuration management
+pydantic==1.10.13
+
+# Metrics and monitoring
+prometheus-client==0.19.0
+opentelemetry-instrumentation-aiokafka==0.43b0
+
+# Cryptography
+cryptography==41.0.7
+
+# Scientific computing
+numpy==1.24.4
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code quality
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
+
+# Development
+python-dotenv==1.0.0
